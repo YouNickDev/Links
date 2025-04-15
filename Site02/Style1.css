@@ -1,0 +1,58 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #ffae00;
+    background-image: url(../Fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;}
+
+    .button {
+        display:flexbox; /* Permite o espaçamento entre os botões */
+        text-align: center; /* Centraliza o texto */
+        font-weight:bold; / * Peso da fonte */
+        padding: 12px 17px; /* Espaçamento interno */
+        font-size: 1.2em; /* Tamanho da fonte */
+        font-display:fallback;
+        color: #3cf72b; /* Cor do texto */
+        background-color: #262aee; /* Cor de fundo */
+        text-decoration-line: overline; /* Sublinhado */
+        text-decoration-color: #000000; /* Cor do sublinhado */
+        border-bottom: 5px; 
+        border-radius: 10px; /* Bordas arredondadas */
+        cursor: pointer; /* Mostra o cursor de "mão" ao passar o mouse */
+        transition: background-color 1,6s step-end; /* Transição suave para a cor de fundo */
+        
+    }
+    .button:hover {
+        background-color: #0e355f; /* Cor de fundo ao passar o mouse */
+        text-decoration-color: #d8ab2f; /* Cor do sublinhado ao clicar */
+    }
+    .button:active {
+        background-color: #71b2f8; /* Cor de fundo ao clicar */
+        text-decoration-color: #8fb81e; /* Cor do sublinhado ao clicar */
+        transform: translateY(2px); /* Efeito de "pressionar" o botão */
+    }
+    .button:focus {
+        outline: none; /* Remove o contorno padrão ao focar */
+    }
+    .button:disabled {
+        background-color: #007bff; /* Cor de fundo para o botão desativado */
+        cursor: not-allowed; /* Cursor de "não permitido" */
+    }
+    .button:disabled:hover {
+        background-color: #007bff; /* Mantém a cor de fundo ao passar o mouse */
+    }
+    .button:disabled:active {
+        background-color: #007bff; /* Mantém a cor de fundo ao clicar */
+    }
+ 
+}
+.inicio {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 57px;
+    font-size: 34px;
+    
+}   
